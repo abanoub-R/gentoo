@@ -1,0 +1,3 @@
+This contains the source version of my current gentoo kernel. (5-15.23)
+
+  NOTE - this kernel is tailored towards MY hardware, so I advise you look through menuconfig before compiling to avoid building a useless kernel
