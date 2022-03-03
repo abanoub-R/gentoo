@@ -1,3 +1,5 @@
-This contains the source version of my current gentoo kernel. (5-15.23)
+This contains the config of my current gentoo kernel. (5-15.23)
 
-  NOTE - this kernel is tailored towards MY hardware, so I advise you look through menuconfig before compiling to avoid building a useless kernel
+  NOTE         - this kernel is tailored towards MY hardware, so I advise you look through menuconfig before compiling to avoid building a useless kernel
+  INSTRUCTIONS - place the .config file inside your /usr/src/linux or /usr/src/linux$(uname -r), then run make && make modules_install && make install
+    
