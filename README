@@ -1,0 +1,9 @@
+this repository existed previously, however it had to be deleted due to issues with
+pulling and pushing branches that couldn't be resolved.
+
+this repository includes my personal gentoo dotfiles, including:
+
+	- portage configuration
+	- kernel configuration
+
+this list is subject to change in the future

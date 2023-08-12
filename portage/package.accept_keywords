@@ -1,0 +1,8 @@
+*/*::steam-overlay
+games-util/game-device-udev-rules ~amd64
+app-emulation/vkd3d-proton ~amd64
+app-emulation/dxvk ~amd64
+games-action/minecraft-launcher ~amd64
+games-action/chromium-bsu ~amd64
+app-emulation/vendor-reset ~amd64
+games-util/gamemode ~amd64
