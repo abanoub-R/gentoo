@@ -1,0 +1,28 @@
+# required
+sys-libs/ncurses -gpm
+media-libs/libsdl2 gles2
+sys-auth/seatd builtin server
+media-libs/libsndfile minimal
+x11-libs/libdrm video_cards_radeon
+games-util/game-device-udev-rules elogind
+dev-qt/qtgui egl eglfs
+media-video/mpv -xv
+dev-lang/rust-bin rustfmt rust-src
+dev-lang/rust system-llvm rustfmt rust-src
+app-admin/doas persist
+
+# preferences
+app-editors/vim -sound -crypt
+app-admin/sudo -sendmail
+app-editors/nano -spell
+x11-libs/gdk-pixbuf jpeg
+
+# kernel
+sys-kernel/installkernel grub
+sys-kernel/gentoo-kernel savedconfig
+
+# pulseaudio / pipewire
+media-sound/pulseaudio -daemon
+media-video/pipewire sound-server
+dev-python/PyQt5 network
+dev-util/android-tools udev
