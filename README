@@ -1,9 +1,6 @@
-this repository existed previously, however it had to be deleted due to issues with
-pulling and pushing branches that couldn't be resolved.
+typical install checklist:
 
-this repository includes my personal gentoo dotfiles, including:
-
-	- portage configuration
-	- kernel configuration
-
-this list is subject to change in the future
+	1. tmpfs in ram (6g)
+	2. zram swap (8g)
+	2. disable rc_parallel
+	3. install chrony
